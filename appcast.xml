@@ -6,46 +6,20 @@
     <description>oh-my-grid updates</description>
     <language>en</language>
     <item>
-      <title>1.11.0</title>
-      <pubDate>Tue, 22 Sep 2026 23:50:08 +0000</pubDate>
-      <sparkle:version>32</sparkle:version>
-      <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
+      <title>1.11.1</title>
+      <pubDate>Wed, 23 Sep 2026 00:10:32 +0000</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>1.11.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description xml:lang="en"><![CDATA[<h2>oh-my-grid 1.11.0</h2>
+      <description xml:lang="en"><![CDATA[<h2>oh-my-grid 1.11.1</h2>
 <ul>
-<li><b>In grid mode the pointer becomes a cat paw.</b> It grips and releases while you drag, and follows the Accessibility pointer size and Reduce Motion settings.</li>
-<li>The cat now blinks whichever way it is looking (it practically never blinked before). With Reduce Motion on, it looks at the pointer without the head-turn animation. The cat artwork now uses about 12 MB of memory instead of 47 MB.</li>
-<li>Fixed: resizing a window from its top or left border into a screen edge maximized or half-snapped the window.</li>
-<li>Edge snapping no longer triggers on the border between two displays, so moving a window to the other display no longer snaps it to a half.</li>
-<li>Fixed: after macOS briefly paused input monitoring, a plain right-click could open the grid, or the next click could leave a mouse button stuck.</li>
-<li>Fixed: revoking Accessibility access and then opening the menu could leave input monitoring running, and granting access again did not always restore the features.</li>
-<li>Fixed: the menu showed "Retry Update…" when there simply was no new version.</li>
-<li>Keyboard snapping: fixed windows moving to the wrong display when their center was off-screen, and a misleading "size limited" message for full-screen windows. Apps that size windows in character steps, such as terminals, now count as snapped.</li>
-<li>Shortcuts: combinations using only ⌥ and ⇧ (such as ⌥L) can no longer be assigned, because they block typing characters in other apps; stored ones fall back to the defaults. Key names now match your keyboard layout (AZERTY and others). The grid shortcut is passed through to the app while the grid is turned off.</li>
-<li>Settings: turning off Keyboard Snapping now really disables the shortcut fields. Fixed unsaved custom sizes disappearing when another setting changed, and the Settings window staying behind other windows after cancelling "capture from window".</li>
-<li>Cleaned up broken links in About: the privacy policy now opens inside the app, and the changelog links to the public releases page.</li>
-<li>Getting Started: fixed "Get Started" reverting changes made in Settings meanwhile, the "Current" custom grid option disappearing, and the language selection not updating.</li>
-<li>If the display arrangement changes while the grid is open, the snap is cancelled instead of using the old layout.</li>
-<li>Update notes are now available in English and Korean.</li>
+<li>Removed the cat-paw pointer from grid mode. The standard pointer stays visible while the grid is open.</li>
 </ul>]]></description>
-      <description xml:lang="ko"><![CDATA[<h2>oh-my-grid 1.11.0</h2>
+      <description xml:lang="ko"><![CDATA[<h2>oh-my-grid 1.11.1</h2>
 <ul>
-<li><b>그리드 모드에서 커서가 고양이 발바닥으로 바뀝니다.</b> 끄는 동안 발바닥이 쥐었다 폈다 하며, 손쉬운 사용의 포인터 크기와 동작 줄이기 설정을 따릅니다.</li>
-<li>고양이가 어느 방향을 보고 있든 가끔 눈을 깜빡입니다(이전에는 사실상 깜빡이지 않았음). 동작 줄이기를 켜면 고개를 돌리는 애니메이션 없이 바로 바라봅니다. 고양이 이미지가 차지하던 메모리를 약 47MB에서 12MB로 줄였습니다.</li>
-<li>창의 위쪽·왼쪽 테두리를 끌어 크기를 바꾸다 화면 가장자리에 닿으면 창이 최대화되거나 절반으로 스냅되던 문제 수정.</li>
-<li>두 모니터가 맞닿은 경계에서는 가장자리 스냅이 걸리지 않습니다(창을 옆 모니터로 옮기다 절반 스냅되던 문제).</li>
-<li>시스템이 입력 감시를 잠시 끈 뒤 평범한 우클릭에 그리드가 뜨거나, 다음 클릭의 버튼이 눌린 채 남던 문제 수정.</li>
-<li>손쉬운 사용 권한을 끈 직후 메뉴를 열면 권한 회수를 놓쳐 입력 감시가 남을 수 있던 문제, 다시 허용했을 때 기능이 복구되지 않던 문제 수정.</li>
-<li>새 버전이 없을 때 메뉴가 "업데이트 다시 시도…"로 바뀌던 문제 수정.</li>
-<li>키보드 스냅: 창 중심이 화면 밖일 때 다른 모니터로 옮겨지던 문제, 전체 화면 창에 엉뚱한 "크기 제한" 안내가 뜨던 문제 수정. 터미널처럼 글자 단위로 크기를 맞추는 앱에서도 성공으로 처리합니다.</li>
-<li>단축키: ⌥·⇧ 만 쓴 조합(예: ⌥L)은 다른 앱의 문자 입력을 막으므로 더 이상 지정할 수 없습니다(저장돼 있던 값은 기본값으로 돌아갑니다). 단축키 이름을 현재 자판 배열(AZERTY 등)에 맞게 표시합니다. 그리드가 꺼져 있으면 드래그 중 그리드 단축키를 앱에 그대로 전달합니다.</li>
-<li>설정: 키보드 스냅을 끄면 단축키 칸도 실제로 비활성화됩니다. 저장 전(잘못된 값) 사용자 지정 크기 편집이 다른 설정을 바꾸면 사라지던 문제, 창 크기 가져오기를 취소하면 설정 창이 뒤에 남던 문제 수정.</li>
-<li>정보 탭의 깨진 링크를 정리했습니다. 개인정보 처리방침은 앱 안에서 보여 주고, 변경 이력은 공개 릴리스 페이지로 연결합니다.</li>
-<li>시작 가이드: "시작하기"가 그 사이 설정 창에서 바꾼 값을 되돌리던 문제, 사용자 지정 그리드 크기("현재") 선택지가 사라지던 문제, 언어 선택 표시가 갱신되지 않던 문제 수정.</li>
-<li>그리드 사용 중 모니터 구성이 바뀌면 옛 배치로 스냅하지 않고 취소합니다.</li>
-<li>업데이트 안내창의 릴리스 노트를 영어와 한국어로 제공합니다.</li>
+<li>그리드 모드의 고양이 발바닥 커서를 제거했습니다. 그리드를 켜도 기본 커서가 그대로 보입니다.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/Canine89/oh-my-grid-releases/releases/download/v1.11.0/oh-my-grid-1.11.0.zip" type="application/octet-stream" sparkle:edSignature="7LrEhBp1X63UiJVJ2aCwo8HNdL17L/uLyx/E8K2KbjNN4wc35p9ah7X07hTVbSMXevfalKXiSOoQqSsHWEPHAA==" length="5709901" />
+      <enclosure url="https://github.com/Canine89/oh-my-grid-releases/releases/download/v1.11.1/oh-my-grid-1.11.1.zip" type="application/octet-stream" sparkle:edSignature="Qfe5e18F5fSrIfalxaUHxrK+zBVEC3hhxirf1Aul0a1u3tlg47FiUEpyVh2CLyI/BFA4yHjkoGCCq0LWUSjYDQ==" length="5673032" />
     </item>
   </channel>
 </rss>
