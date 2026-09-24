@@ -6,22 +6,20 @@
     <description>oh-my-grid updates</description>
     <language>en</language>
     <item>
-      <title>1.13.0</title>
-      <pubDate>Thu, 24 Sep 2026 03:31:21 +0000</pubDate>
-      <sparkle:version>35</sparkle:version>
-      <sparkle:shortVersionString>1.13.0</sparkle:shortVersionString>
+      <title>1.14.0</title>
+      <pubDate>Thu, 24 Sep 2026 04:20:06 +0000</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>1.14.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description xml:lang="en"><![CDATA[<h2>oh-my-grid 1.13.0</h2>
+      <description xml:lang="en"><![CDATA[<h2>oh-my-grid 1.14.0</h2>
 <ul>
-<li><b>Choose your character.</b> Pick Hoodie Kid or the new Sweater Girl from the Character menu in the menu bar; it appears the next time you open the grid.</li>
-<li>The grid-mode character now shows just its face, without the upper body.</li>
+<li><b>Four new characters.</b> Rei, Cindy, Jini and Toynbee are now in the Character menu in the menu bar.</li>
 </ul>]]></description>
-      <description xml:lang="ko"><![CDATA[<h2>oh-my-grid 1.13.0</h2>
+      <description xml:lang="ko"><![CDATA[<h2>oh-my-grid 1.14.0</h2>
 <ul>
-<li><b>캐릭터를 고를 수 있습니다.</b> 메뉴바의 "캐릭터" 메뉴에서 후드티 소년과 새 캐릭터 스웨터 소녀 중에 고르면, 다음에 그리드를 켤 때부터 적용됩니다.</li>
-<li>그리드 중앙 캐릭터를 상반신 없이 얼굴만 띄웁니다.</li>
+<li><b>캐릭터 4명이 추가되었습니다.</b> 메뉴바의 "캐릭터" 메뉴에서 레이, 신디, 지니, 토인비를 고를 수 있습니다.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/Canine89/oh-my-grid-releases/releases/download/v1.13.0/oh-my-grid-1.13.0.zip" type="application/octet-stream" sparkle:edSignature="qZjR/hGpypbjIBz14ZWBx60m5hnZqFqX3ld65nkkGO7AhDFZ4jamEVclOINOK2gbap9PT3SPBZ/+Lh9xblTTDg==" length="5290567" />
+      <enclosure url="https://github.com/Canine89/oh-my-grid-releases/releases/download/v1.14.0/oh-my-grid-1.14.0.zip" type="application/octet-stream" sparkle:edSignature="LiwrjnIsdnuoAIojJ86PMghupC5JXOkLDjukdrp0/KfNKrJ7IVjE80qO1YG4ElfEpURl8qxQD/i2DqT274K/CA==" length="8246844" />
     </item>
   </channel>
 </rss>
