@@ -6,24 +6,22 @@
     <description>oh-my-grid updates</description>
     <language>en</language>
     <item>
-      <title>1.12.0</title>
-      <pubDate>Thu, 24 Sep 2026 02:54:19 +0000</pubDate>
-      <sparkle:version>34</sparkle:version>
-      <sparkle:shortVersionString>1.12.0</sparkle:shortVersionString>
+      <title>1.13.0</title>
+      <pubDate>Thu, 24 Sep 2026 03:31:21 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>1.13.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description xml:lang="en"><![CDATA[<h2>oh-my-grid 1.12.0</h2>
+      <description xml:lang="en"><![CDATA[<h2>oh-my-grid 1.13.0</h2>
 <ul>
-<li><b>The grid-mode cat is replaced by a new character.</b> When the grid opens, a clay character in the middle of the screen watches the pointer. Its eyes dart first and its head follows, blinking as it turns. When the pointer rests, it glances around a little. With Reduce Motion on, it looks without bouncing or blinking.</li>
-<li>The cat's annoyed and dozing expressions are gone along with the cat.</li>
-<li>New app icon featuring the character.</li>
+<li><b>Choose your character.</b> Pick Hoodie Kid or the new Sweater Girl from the Character menu in the menu bar; it appears the next time you open the grid.</li>
+<li>The grid-mode character now shows just its face, without the upper body.</li>
 </ul>]]></description>
-      <description xml:lang="ko"><![CDATA[<h2>oh-my-grid 1.12.0</h2>
+      <description xml:lang="ko"><![CDATA[<h2>oh-my-grid 1.13.0</h2>
 <ul>
-<li><b>그리드 모드의 고양이가 새 캐릭터로 바뀌었습니다.</b> 그리드를 켜면 화면 중앙의 클레이 캐릭터가 커서를 바라봅니다. 눈이 먼저 휙 옮겨가고 고개가 뒤따르며, 고개를 돌릴 때 눈을 깜빡입니다. 커서가 멈춰 있으면 가끔 시선을 살짝 옮깁니다. 동작 줄이기를 켜면 튕김과 깜빡임 없이 바라봅니다.</li>
-<li>고양이의 짜증·졸음 표정은 캐릭터 교체와 함께 없어졌습니다.</li>
-<li>앱 아이콘을 새 캐릭터로 바꿨습니다.</li>
+<li><b>캐릭터를 고를 수 있습니다.</b> 메뉴바의 "캐릭터" 메뉴에서 후드티 소년과 새 캐릭터 스웨터 소녀 중에 고르면, 다음에 그리드를 켤 때부터 적용됩니다.</li>
+<li>그리드 중앙 캐릭터를 상반신 없이 얼굴만 띄웁니다.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/Canine89/oh-my-grid-releases/releases/download/v1.12.0/oh-my-grid-1.12.0.zip" type="application/octet-stream" sparkle:edSignature="VBexliWyO8g20CUakTdoXTnToWcly1ss/+Ur2tEBQmqoRiT8Bna3b1+Sxl8OgPYmdD5JfSZT8mGpLeiq5gSfAg==" length="4631355" />
+      <enclosure url="https://github.com/Canine89/oh-my-grid-releases/releases/download/v1.13.0/oh-my-grid-1.13.0.zip" type="application/octet-stream" sparkle:edSignature="qZjR/hGpypbjIBz14ZWBx60m5hnZqFqX3ld65nkkGO7AhDFZ4jamEVclOINOK2gbap9PT3SPBZ/+Lh9xblTTDg==" length="5290567" />
     </item>
   </channel>
 </rss>
