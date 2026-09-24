@@ -6,20 +6,24 @@
     <description>oh-my-grid updates</description>
     <language>en</language>
     <item>
-      <title>1.14.0</title>
-      <pubDate>Thu, 24 Sep 2026 04:20:06 +0000</pubDate>
-      <sparkle:version>36</sparkle:version>
-      <sparkle:shortVersionString>1.14.0</sparkle:shortVersionString>
+      <title>1.14.1</title>
+      <pubDate>Thu, 24 Sep 2026 22:43:10 +0000</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>1.14.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description xml:lang="en"><![CDATA[<h2>oh-my-grid 1.14.0</h2>
+      <description xml:lang="en"><![CDATA[<h2>oh-my-grid 1.14.1</h2>
 <ul>
-<li><b>Four new characters.</b> Rei, Cindy, Jini and Toynbee are now in the Character menu in the menu bar.</li>
+<li>Redrawn all nine head directions for Sweater Girl, Rei, Cindy, Jini and Toynbee, with eye placement that follows the head as it looks up, down and sideways.</li>
+<li>Fixed Cindy’s eyes touching the glasses frames.</li>
+<li>Reduced eye sliding and changing eye spacing. Head turns now happen during a brief blink and respect Reduce Motion.</li>
 </ul>]]></description>
-      <description xml:lang="ko"><![CDATA[<h2>oh-my-grid 1.14.0</h2>
+      <description xml:lang="ko"><![CDATA[<h2>oh-my-grid 1.14.1</h2>
 <ul>
-<li><b>캐릭터 4명이 추가되었습니다.</b> 메뉴바의 "캐릭터" 메뉴에서 레이, 신디, 지니, 토인비를 고를 수 있습니다.</li>
+<li>스웨터, 레이, 신디, 지니, 토인비의 얼굴을 9방향으로 다시 그렸습니다. 고개를 들거나 숙일 때 눈의 높이와 얼굴 각도가 자연스럽게 맞습니다.</li>
+<li>신디의 눈이 안경테에 붙어 보이던 부분을 수정했습니다.</li>
+<li>두 눈이 벌어지거나 얼굴 위에서 과하게 미끄러지는 움직임을 줄였습니다. 고개는 짧은 깜빡임 중에 전환되며, 동작 줄이기 설정도 따릅니다.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/Canine89/oh-my-grid-releases/releases/download/v1.14.0/oh-my-grid-1.14.0.zip" type="application/octet-stream" sparkle:edSignature="LiwrjnIsdnuoAIojJ86PMghupC5JXOkLDjukdrp0/KfNKrJ7IVjE80qO1YG4ElfEpURl8qxQD/i2DqT274K/CA==" length="8246844" />
+      <enclosure url="https://github.com/Canine89/oh-my-grid-releases/releases/download/v1.14.1/oh-my-grid-1.14.1.zip" type="application/octet-stream" sparkle:edSignature="FduHUyK/Pz/HOwt/5GYYWk6DqLPI5VhJ4cWFtj6b6Bwnz07USIxQwE3J+Ymg6LJNPdx0UH7za1WdVwKj7voPAg==" length="8237362" />
     </item>
   </channel>
 </rss>
